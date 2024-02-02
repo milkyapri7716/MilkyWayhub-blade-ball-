@@ -4,7 +4,7 @@ local PhantomForcesWindow = Library:NewWindow("MilkyWayhub")
 
 local AutoParry = PhantomForcesWindow:NewSection("Main")
 
-AutoParry:CreateButton("Giữ hold để spam bóng", function()getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
+AutoParry:CreateButton("Giữ block để spam bóng", function()getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
 end)
 
 AutoParry:CreateToggle("Tự động đánh bóng", function()getgenv().config = getgenv().config or { hit_time = 0.5, -- // recommended 0.25 to 0.75 \ -- 
